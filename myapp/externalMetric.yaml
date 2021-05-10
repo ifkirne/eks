@@ -1,0 +1,16 @@
+apiVersion: metrics.aws/v1alpha1
+kind: ExternalMetric
+metadata:
+  name: average_cpu
+spec:
+  name: average_cpu
+  queries:
+    - id: expr1m0
+      metricStat:
+        metric:
+          namespace: "ContainerInsights"
+          metricName: "pod_cpu_utilization"
+        period: 60
+        stat: Average
+        unit: None
+      returnData: true
