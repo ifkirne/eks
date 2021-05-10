@@ -11,7 +11,7 @@ spec:
   minReplicas: 1
   maxReplicas: 10
   metrics:
-    - type: Pods
-      pods:
+    - type: External
+      external:
         metricName: average-cpu
         targetAverageValue: 10
