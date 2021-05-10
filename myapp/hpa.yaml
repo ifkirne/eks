@@ -13,5 +13,5 @@ spec:
   metrics:
     - type: Pods
       pods:
-        metricName: average_cpu
+        metricName: average-cpu
         targetAverageValue: 10
