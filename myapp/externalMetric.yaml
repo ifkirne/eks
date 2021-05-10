@@ -1,9 +1,9 @@
 apiVersion: metrics.aws/v1alpha1
 kind: ExternalMetric
 metadata:
-  name: average_cpu
+  name: average-cpu
 spec:
-  name: average_cpu
+  name: average-cpu
   queries:
     - id: expr1m0
       metricStat:
