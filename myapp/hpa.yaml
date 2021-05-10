@@ -13,5 +13,5 @@ spec:
   metrics:
     - type: Pods
       pods:
-        metricName: http_requests_per_second
+        metricName: average_cpu
         targetAverageValue: 10
