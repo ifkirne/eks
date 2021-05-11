@@ -12,5 +12,5 @@ spec:
           metricName: "pod_cpu_utilization"
         period: 60
         stat: Average
-        unit: None
+        unit: Count
       returnData: true
