@@ -10,6 +10,9 @@ spec:
         metric:
           namespace: "ContainerInsights"
           metricName: "pod_cpu_utilization"
+          dimensions: 
+            - name: PodName
+              value: "podinfo"
         period: 10
         stat: Average
         unit: Percent
