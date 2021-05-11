@@ -15,5 +15,5 @@ spec:
               value: "podinfo"
         period: 10
         stat: Average
-        unit: Percent
+        unit: Count
       returnData: true
