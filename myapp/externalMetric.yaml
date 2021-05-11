@@ -10,7 +10,7 @@ spec:
         metric:
           namespace: "ContainerInsights"
           metricName: "pod_cpu_utilization"
-        period: 60
+        period: 10
         stat: Average
         unit: Count
       returnData: true
